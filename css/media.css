@@ -1,0 +1,132 @@
+@import url(./style.css);
+
+/* HERO MEDIA */
+@media (max-width: 800px) {
+    .prev, .next{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .text h1{
+        font-size: 4.5rem;
+    }
+    .text p{
+        font-size: 1.2rem;
+    }
+    .dotsbox{
+        display: none;
+    }
+}
+
+/* ABOUT MEDIA */
+@media (max-width: 900px) {
+    .about-section{
+        padding: 2.5rem 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-section video{
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-section p{
+        font-size: 1.2rem;
+    }
+    .about-section video{
+        width: 80%;
+    }
+}
+
+
+/* SERVICE MEDIA */
+@media (max-width: 800px) {
+    .service-section .div2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .service-section{
+        padding: 5rem 2rem;
+    }
+    .service-section .div2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* INFOS MEDIA */
+@media (max-width: 950px) {
+    .infos-section .div2{
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .infos-section .div1{
+        padding: 0;
+    }
+
+    .infos-section .div2 span{
+        font-size: 1.5rem;
+    }
+    .infos-section .div2 span h3{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .infos-section{
+        padding: 5rem 2rem;
+    }
+}
+
+
+/* BOOK FORM MEDIA */
+@media (min-width: 1300px) {
+    .book-now form{
+        width: 35%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .book-now form{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .book-now form{
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .book-now form{
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    .book-now form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .book-now form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 530px) {
+    .book-now form{
+        width: 100%;
+        padding: 5rem 2.5rem 2.5rem;
+    }
+}
