@@ -305,7 +305,11 @@ iframe{
     /* background: linear-gradient(to right, var(--dark1)50%, var(--dark2)); */
     background: #111;
     color: var(--light1);
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
     padding: 2rem;
 }
 
@@ -313,6 +317,23 @@ iframe{
     font-size: 1.3rem;
     font-weight: 400;
     margin: 0;
+}
+
+.footer .socials{
+    margin: 1.5rem 0;
+}
+.footer .socials i{
+    font-size: 1.5rem;
+    color: var(--light1);
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+    margin-inline: 1rem;
+    padding: .5rem;
+    transition: .3s ease-in-out;
+}
+.footer .socials i:hover{
+    border-color: var(--light1);
+    box-shadow: 0 0 5px var(--light1);
 }
 
 .footer span{
